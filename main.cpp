@@ -68,8 +68,6 @@ int main(int argc, char *argv[])
 
     QCoreApplication::setApplicationName(APP_NAME);
     QCoreApplication::setApplicationVersion(APP_VERSION " (" _BUILD_NO_ ")");
-    QCoreApplication::setOrganizationName(ORG_NAME);
-    QCoreApplication::setOrganizationDomain(ORG_DOMAIN);
 
     clParser.setApplicationDescription(DESCRIPTION);
     clParser.addHelpOption();
